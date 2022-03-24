@@ -2,6 +2,15 @@
     margin: 0px;
     padding: 0px;
 }
+
+body{
+    
+    /*background-image: url("../IMAGENS/fundo1.jpeg");*/
+    background-image: linear-gradient(to right, rgb(20,147, 220), rgb(17,54,71));
+    background-position: 50% 70%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
 input{
     display: block;
     height: 55px;
@@ -11,10 +20,28 @@ input{
     border: 1px solid black;
     font-size: 16pt;
     padding: 10px 20px ;
+    outline: none;
+    border: none;
 }
 
 div#corpo-form{
     /*background-color: red;*/
    width: 420px;
    margin: 150px auto 0px auto; 
+}
+
+div#corpo-form h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
