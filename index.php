@@ -9,6 +9,7 @@
 </head>
 <body>
 
+<div id="corpo-form">
     <h1>Entrar</h1>
 
     <form method="POST" action="processa.php">
@@ -18,6 +19,7 @@
     <input type="submit" value="Acessar">
 
     <a href=""> Ainda não é inscrito?<strong>Cadastre-se</strong></a>
+</div>
 
 </form>
     
