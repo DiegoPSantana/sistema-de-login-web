@@ -8,6 +8,11 @@
     <title>Projeto Login</title>
 </head>
 <body>
+    <form method="POST" action="processa.php">
+
+    <input type="email" placeholder="Usuário">
+    <input type="password" placeholder="Senha">
+    <input type="submit" value="Acessar">
     
 </body>
 </html>
